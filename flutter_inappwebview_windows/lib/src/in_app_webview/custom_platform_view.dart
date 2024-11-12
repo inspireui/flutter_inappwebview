@@ -321,7 +321,6 @@ class _CustomPlatformViewState extends State<CustomPlatformView> with PlatformUt
   @override
   Widget build(BuildContext context) {
     return Focus(
-      autofocus: true,
       focusNode: _focusNode,
       canRequestFocus: true,
       debugLabel: "flutter_inappwebview_windows_custom_platform_view",
